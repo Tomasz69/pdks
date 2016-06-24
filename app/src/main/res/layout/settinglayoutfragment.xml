@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d6a8e"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/editadres"
+            android:layout_width="@dimen/uzunedit_genislik"
+            android:layout_height="@dimen/uzunedit_yukseklik"
+            android:layout_marginLeft="@dimen/adres_edit_new_panel_margin_left"
+            android:layout_marginTop="@dimen/adres_edit_new_panel_margin_top"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/adres_text_margin_left"
+            android:layout_marginTop="@dimen/adres_text_margin_top"
+            android:text="@string/sunucu_adresi"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:layout_width="@dimen/nokta_genislik"
+            android:layout_height="@dimen/nokta_yukseklik"
+            android:layout_marginLeft="@dimen/nokta_adres_marginleft"
+            android:layout_marginTop="@dimen/nokta_adres_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize" />
+
+        <EditText
+            android:id="@+id/editlisans"
+            android:layout_width="@dimen/uzunedit_genislik"
+            android:layout_height="@dimen/uzunedit_yukseklik"
+            android:layout_marginLeft="@dimen/lisansedit_marginleft"
+            android:layout_marginTop="@dimen/lisansedit_margintop"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="textCapSentences|textAutoCorrect" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/lisanstext_marginlef"
+            android:layout_marginTop="@dimen/lisanstext_margintop"
+            android:text="@string/lisanstext"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:layout_width="@dimen/nokta_genislik"
+            android:layout_height="@dimen/nokta_yukseklik"
+            android:layout_marginLeft="@dimen/nokta_lisans_marginleft"
+            android:layout_marginTop="@dimen/nokta_lisans_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize" />
+
+
+        <TextView
+            android:id="@+id/sifreid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/kisayol_text_marginleft"
+            android:layout_marginTop="@dimen/kisayol_text_margintop"
+            android:text="@string/sifretxt"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/kisayol_nokta_marginleft"
+            android:layout_marginTop="@dimen/kisayol_nokta_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize" />
+
+
+        <EditText
+            android:id="@+id/editkisayol"
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:layout_marginLeft="@dimen/kisayol_edit_marginleft"
+            android:layout_marginTop="@dimen/kisayol_edit_margintop"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="number"
+            android:maxLength="6" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EN(resim)"
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="@dimen/en_text_marginleft"
+            android:layout_marginTop="@dimen/en_text_margintop"
+            android:id="@+id/enidtext" />
+
+
+        <EditText
+            android:id="@+id/editen"
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:layout_marginTop="@dimen/en_edittex_margintop"
+            android:layout_marginLeft="@dimen/en_edittex_marginleft"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="number"
+            android:maxLength="3"
+              />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="BOY (resim) "
+            android:textSize="@dimen/textsize"
+            android:layout_marginLeft="@dimen/boy_text_marginleft"
+            android:layout_marginTop="@dimen/boy_text_margintop"
+            android:id="@+id/textView22" />
+
+
+        <EditText
+            android:id="@+id/editboy"
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:layout_marginTop="@dimen/boy_edittex_margintop"
+            android:layout_marginLeft="@dimen/boy_edittex_marginleft"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="number"
+            android:maxLength="3"
+              />
+
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/anahtar_text_marginleft"
+            android:layout_marginTop="@dimen/anahtar_text_margintop"
+            android:text="@string/anahatartxt"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="@dimen/nokta_genislik"
+            android:layout_height="@dimen/nokta_yukseklik"
+            android:layout_marginLeft="@dimen/nokta_anahtar_marginleft"
+            android:layout_marginTop="@dimen/nokta_anahtar_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize" />
+
+        <EditText
+            android:id="@+id/editkod"
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:layout_marginLeft="@dimen/anahtar_edittext_marginleft"
+            android:layout_marginTop="@dimen/anahtar_edittext_margintop"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="number"
+            android:maxLength="5" />
+
+        <TextView
+            android:id="@+id/kiosktxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/kiosktext_marginleft"
+            android:layout_marginTop="@dimen/kiosktext_margintop"
+            android:text="KİOSK DURUM"
+            android:textSize="@dimen/textsize" />
+
+        <ToggleButton
+            android:id="@+id/tglkioskbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tgl_btn_marginleft"
+            android:layout_marginTop="@dimen/tgl_btn_margintop"
+            android:checked="false"
+            android:gravity="center"
+            android:text="New ToggleButton" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/grpkamera_marginleft"
+            android:layout_marginTop="@dimen/grpkamera_margintop"
+            android:orientation="horizontal"
+            android:background="#CCCCCC"
+            >
+
+            <RadioButton
+                android:id="@+id/rdnarka"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/radioGroup"
+                android:layout_toEndOf="@+id/radioGroup"
+                android:layout_toRightOf="@+id/radioGroup"
+                android:checked="false"
+                android:text="on kamera" />
+
+            <RadioButton
+                android:id="@+id/rdnon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tglkioskbtn"
+                android:layout_alignStart="@+id/tglkioskbtn"
+                android:layout_below="@+id/tglkioskbtn"
+                android:checked="false"
+                android:text="arka kamera" />
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/kameratext_marginleft"
+            android:layout_marginTop="@dimen/kameratext_margintop"
+            android:text="KAMERA"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/nokta_kamera_marginleft"
+            android:layout_marginTop="@dimen/nokta_kamera_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/nokta_kioks_marginleft"
+            android:layout_marginTop="@dimen/nokta_kiosk_margintop"
+            android:text=":"
+            android:textSize="@dimen/nokta_genislik" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/boy_nokta_marginleft"
+            android:layout_marginTop="@dimen/boy_nokta_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/en_nokta_marginleft"
+            android:layout_marginTop="@dimen/en_nokta_margintop"
+            android:text=":"
+            android:textSize="@dimen/noktasize"
+            android:id="@+id/nktid" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+    android:background="#0d6a8e"
+    android:id="@+id/anapanelid"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_marginLeft="@dimen/layout_liner_margin_left"
+        android:layout_marginTop="@dimen/layout_liner_margin_top">
+
+        <Button
+            android:background="@drawable/durumon"
+            android:layout_width="@dimen/tabbtn_genislik"
+            android:layout_height="@dimen/tabtbtn_yukseklik"
+            android:layout_marginTop="@dimen/tabbtn_margin_top"
+            android:id="@+id/textbtn"
+            />
+
+        <Button
+            android:background="@drawable/ayararka"
+            android:layout_width="@dimen/tabbtn_genislik"
+            android:layout_height="@dimen/tabtbtn_yukseklik"
+            android:layout_marginTop="@dimen/tabbtn_margin_top"
+            android:layout_gravity="center_horizontal|top"
+            android:id="@+id/settingbtn"
+             />
+
+        <Button
+            android:background="@drawable/digerarka"
+            android:layout_width="@dimen/tabbtn_genislik"
+            android:layout_height="@dimen/tabtbtn_yukseklik"
+            android:layout_marginTop="@dimen/tabbtn_margin_top"
+            android:id="@+id/otherbtn"
+            android:layout_gravity="right|top" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="1107dp"
+        android:layout_height="@dimen/frame_yukseklik"
+        android:id="@+id/frame_main"
+        android:layout_alignLeft="@+id/panel"
+        android:layout_alignStart="@+id/panel"
+        android:layout_alignRight="@+id/panel"
+        android:layout_alignEnd="@+id/panel"
+        android:layout_above="@+id/buttonid"
+        android:layout_below="@+id/panel"></FrameLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:background="@drawable/btnactionalt"
+        android:id="@+id/buttonid"
+        android:layout_alignTop="@+id/btntest"
+        android:layout_alignLeft="@+id/frame_main"
+        android:layout_alignStart="@+id/frame_main" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:id="@+id/btnsifirla"
+        android:background="@drawable/btnsifirladrawble"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btntest"
+        android:layout_toEndOf="@+id/btntest" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:id="@+id/btntest"
+        android:background="@drawable/btntestdrawble"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnguncelle"
+        android:layout_toEndOf="@+id/btnguncelle" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:id="@+id/btncikis"
+        android:background="@drawable/btncikisdrwable"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnBluettoh"
+        android:layout_toEndOf="@+id/btnBluettoh" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:id="@+id/btnguncelle"
+        android:background="@drawable/btngucelledrawble"
+        android:layout_below="@+id/frame_main"
+        android:layout_toRightOf="@+id/buttonid"
+        android:layout_toEndOf="@+id/buttonid" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:id="@+id/btnkapat"
+        android:background="@drawable/btnkatpmadrawble"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btncikis"
+        android:layout_toEndOf="@+id/btncikis" />
+
+    <Button
+        android:layout_width="@dimen/anabtn_genislik"
+        android:layout_height="@dimen/anabtn_yukseklik"
+        android:background="@drawable/btnbluedrawble"
+        android:id="@+id/btnBluettoh"
+        android:layout_below="@+id/frame_main"
+        android:layout_toRightOf="@+id/btnsifirla"
+        android:layout_toEndOf="@+id/btnsifirla" />
+
+
+</RelativeLayout>

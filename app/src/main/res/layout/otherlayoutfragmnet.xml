@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"     android:background="#0d6a8e"
+    >
+
+    <RelativeLayout
+        android:id="@+id/tummunusilid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tummunusil_tetx"
+            android:textSize="@dimen/textsize"
+            android:id="@+id/texttmnusil"
+            android:layout_marginLeft="@dimen/tmnsiltext_margin_left"
+            android:layout_marginTop="@dimen/tmnsiltext_margin_top"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/noktasize"
+            android:text=":"
+            android:id="@+id/nktasilid"
+            android:layout_marginLeft="@dimen/tmnsil_nokta_marginleft"
+            android:layout_marginTop="@dimen/tmnsil_nokta_margintop"
+             />
+        <EditText
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:layout_marginLeft="@dimen/tmnsil_edittex_marginleft"
+
+            android:layout_marginTop="@dimen/tmnsil_edittex_margintop"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext_normal"
+            android:maxLength="6"
+            android:id="@+id/tumunusilid"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tummunuguncelle_tetx"
+            android:textSize="@dimen/textsize"
+            android:id="@+id/textView23"
+            android:layout_marginLeft="@dimen/tmnguncelle_text_margin_left"
+            android:layout_marginTop="@dimen/tmnguncelle_text_margin_top"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/noktasize"
+            android:text=":"
+            android:id="@+id/textView19"
+            android:layout_marginLeft="@dimen/tmnguncelle_nokta_marginleft"
+            android:layout_marginTop="@dimen/tmnguncelle_nokta_margintop"/>
+
+        <EditText
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext_normal"
+            android:maxLength="6"
+            android:id="@+id/tumunuguncelleid"
+            android:layout_marginLeft="@dimen/tmnguncelle_edittex_marginleft"
+            android:layout_marginTop="@dimen/tmnguncelle_edittex_margintop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uyglamakapa"
+            android:layout_marginLeft="@dimen/appkapat_text_marginleft"
+            android:layout_marginTop="@dimen/appkapat_text_margintop"
+            android:textSize="@dimen/textsize"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="@dimen/noktasize"
+            android:layout_marginLeft="@dimen/appkapat_nokta_marginleft"
+            android:layout_marginTop="@dimen/appkapat_nokta_margintop"
+            />
+        <EditText
+            android:layout_width="@dimen/kucuk_genislik"
+            android:layout_height="@dimen/kucuk_yukseklik"
+            android:inputType="number"
+            android:background="@drawable/bg_edittext_normal"
+            android:maxLength="6"
+            android:id="@+id/appkapatedit"
+            android:layout_marginLeft="@dimen/appkapat_editext_marginleft"
+            android:layout_marginTop="@dimen/appkapat_nokta_margintop"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

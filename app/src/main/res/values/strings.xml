@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+
+    <string name="app_name">PDKS</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="uyari_mesaji">KAYIT BULUNAMADI !</string>
+    <string name="giris_onay_mesaji">GİRİŞ BAŞARILI</string>
+    <string name="cikis_onay_mesaji">ÇIKIŞ BAŞARILI</string>
+    <string name ="bekleme_mesaji">BEKLEYİNİZ !</string>
+    <string name ="sununucu_hata_mesaji">Lütfen gönderilen sunucu adresini kontrol ediniz.</string>
+    <string name ="kart_text">SON KART :</string>
+    <string name="dis_ip">DIŞ IP :</string>
+    <string name= "ic_ip">İÇ IP :</string>
+    <string name = "kisi_text">MESAİ SAYISI :</string>
+    <string name="personel_sayisi">PERSONEL SAYISI :</string>
+    <string name="guncelleme">GÜNCELLEME BAŞARILI</string>
+    <string name="silmekisayol">SİLME BAŞARILI</string>
+    <string name="new_btn_name">KAYDET</string>
+    <string name="btntabtext">Rakamsal Degerler</string>
+    <string name="btntabsetting">Ayarlar</string>
+    <string name="btnother">Diger</string>
+    <string name="sunucu_adresi">SUNUCU ADRESİ</string>
+    <string name = "lisanstext">LİSANS</string>
+    <string name="anahatartxt">ANAHTAR</string>
+    <string name = "baglantibasarili">BAĞLANTI BAŞARILI</string>
+    <string name=  "baglantibasarisiz">BAĞLANTI BAŞARISIZ</string>
+    <string name = "sunucukoderror">Beklenmeyen Sunucu Hatası</string>
+    <string name = "tummunusil_tetx">TÜMÜNÜ SİL</string>
+    <string name = "tummunuguncelle_tetx">TÜMÜNÜ GÜNCELLE</string>
+    <string name = "frabrkatxt">FABRİKA AYARLARINA DÖN</string>
+    <string name = "sifirlabtn">SIFIRLA</string>
+    <string name="cikisbtn">ÇIKIŞ</string>
+    <string name="uyariayni">GİRİLEN DEĞERLER FARKLI GİRİNİZ</string>
+    <string name = "bosalanmesaj">BOŞ ALAN BIRAKILMIŞ YADA GİRİLEN VERİLER AYNI</string>
+    <string name="sifretxt">ŞİFRE</string>
+    <string name="hayirstring">Hayır</string>
+    <string name="sifirlamaktext">Kayıtlı olan veriler silinecek fabrika ayarlarına dönülecek</string>
+    <string name = "uyglamakapa">UYGULAMA KAPAT</string>
+    <string name =  "girisDurum">GEÇEBİLİRSİNİZ</string>
+
+
+    <!--  BluetoothChat -->
+    <string name="send">Gönder</string>
+    <string name="not_connected">Bir cihaza bağlı değil</string>
+    <string name="bt_not_enabled_leaving">Bluetooth özellikli bulunmamaktadır.</string>
+    <string name="title_connecting">Bağlanıyor...</string>
+    <string name="title_connected_to">bağlı<xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">bağlı değil</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">cihazlar için tarama yapılıyor.</string>
+    <string name="select_device">bağlamak için bir cihaz seçin</string>
+    <string name="none_paired">Hiçbir cihaz eşleştirilmiştir.</string>
+    <string name="none_found">Cihaz Bulunmamaktadır.</string>
+    <string name="title_paired_devices">Eşleşmiş Cihazlar</string>
+    <string name="title_other_devices">Diğer Cihazlar</string>
+    <string name="button_scan">Cihaz Ekleyeniz.</string>
+
+    <string name = "cihazbq">BAĞLANTI KOPTU</string>
+    <string name= "cihazaktifdegil">CİHAZ AKTİF DEĞİL</string>
+
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+
+    <string name="gpsuyarimesaj">Gps aktif değil . Gps ayarlarına gitmek istermisiniz.</string>
+
+</resources>

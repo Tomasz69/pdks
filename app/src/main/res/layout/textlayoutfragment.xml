@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0d6a8e">
+
+
+
+    <TextView
+        android:layout_width="@dimen/mactanim_genislik"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:text="MAC ADRES :"
+        android:textSize="@dimen/mactanim_text_sezi"
+        android:layout_marginTop="80dp"
+        android:id="@+id/mactxt"/>
+
+    <TextView
+        android:layout_width="@dimen/mactanim_genislik"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:text="@string/ic_ip"
+        android:textSize="@dimen/mactanim_text_sezi"
+        android:id="@+id/ipicctxt"/>
+
+    <TextView
+        android:layout_width="@dimen/mactanim_genislik"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textSize="@dimen/mactanim_text_sezi"
+        android:id="@+id/personelid"/>
+    <TextView
+        android:layout_width="@dimen/mactanim_genislik"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:textSize="@dimen/mactanim_text_sezi"
+        android:id="@+id/gecicipersonel"/>
+
+</LinearLayout>

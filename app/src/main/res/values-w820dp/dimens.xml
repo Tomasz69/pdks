@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="klavye_panel_genislik">480dp</dimen>
+    <dimen name ="klavye_panel_yukseklik">500dp</dimen>
+    <dimen name = "klavye_panel_margin_top">85dp</dimen>
+    <dimen name = "klavye_panel_margin_left">20dp</dimen>
+    <!-- kamera layout -->
+    <dimen name = "kamera_panel_genislik">480dp</dimen>
+    <dimen name = "kamera_panel_yukselklik">500dp</dimen>
+    <dimen name="kamera_panel_margin_right">775dp</dimen>
+    <dimen name="kamera_panel_margin_top">85dp</dimen>
+
+
+
+    <!-- saat view -->
+    <dimen name="saat_margin_right">50dp</dimen>
+
+    <!-- Button ayarlari -->
+    <dimen name="button_genislik">120dp</dimen>
+    <dimen name="button_yukseklik">80dp</dimen>
+    <dimen name="button_arabosluk">15dp</dimen>
+    <dimen name="button_margin_top">35dp</dimen>
+    <dimen name="button_margin_left">30dp</dimen>
+
+    <!-- setting layout view -->
+
+    <dimen name = "analayout_margin_left">0dp</dimen>
+    <dimen name = "analayout_margin_top">50dp</dimen>
+    <dimen name ="analayout_genislik">950dp</dimen>
+    <dimen name = "analayout_yukseklik">600dp</dimen>
+
+
+    <dimen name = "adres_margin_left">120dp</dimen>
+    <dimen name = "adres_margin_top">40dp</dimen>
+    <dimen name = "adres_genislik">120dp</dimen>
+    <dimen name = "adres_yukseklik">50dp</dimen>
+    <dimen name = "adres_text_size">30dp</dimen>
+
+
+    <dimen name = "adres_edittext_margin_left">270dp</dimen>
+    <dimen name = "adres_edittext_margin_top">40dp</dimen>
+    <dimen name = "adres_edittext_genislik">470dp</dimen>
+    <dimen name = "adres_edittext_yukseklik">50dp</dimen>
+
+    <dimen name = "Lisans_margin_left">100dp</dimen>
+    <dimen name = "Lisans_margin_top">110dp</dimen>
+    <dimen name = "Lisans_genislik">170dp</dimen>
+    <dimen name = "Lisans_yukseklik">50dp</dimen>
+    <dimen name = "Lisans_text_size">30dp</dimen>
+
+    <dimen name = "Lisans_edittext_margin_left">270dp</dimen>
+    <dimen name = "Lisans_edittext_margin_top">110dp</dimen>
+    <dimen name = "Lisans_edittext_genislik">470dp</dimen>
+    <dimen name = "Lisans_edittext_yukseklik">50dp</dimen>
+
+
+
+    <dimen name = "Kisayol_margin_left">0dp</dimen>
+    <dimen name = "Kisayol_margin_top">0dp</dimen>
+    <dimen name = "Kisayol_genislik">100dp</dimen>
+    <dimen name = "Kisayol_yukseklik">30dp</dimen>
+    <dimen name = "Kisayol_text_size">20dp</dimen>
+
+    <dimen name = "Kisayol_edittext_margin_left">20dp</dimen>
+    <dimen name = "Kisayol_edittext_margin_top">10dp</dimen>
+    <dimen name = "Kisayol_edittext_genislik">100dp</dimen>
+    <dimen name = "Kisayol_edittext_yukseklik">40dp</dimen>
+
+
+    <dimen name = "Linerlayout_genislik">800dp</dimen>
+    <dimen name = "LinerLayout_yukseklik">60dp</dimen>
+    <dimen name = "LinerLayout_margin_left">60dp</dimen>
+    <dimen name = "LinerLayout_margin_top">310dp</dimen>
+
+
+
+    <dimen name = "En_margin_left">40dp</dimen>
+    <dimen name = "En_margin_top">0dp</dimen>
+    <dimen name = "En_genislik">100dp</dimen>
+    <dimen name = "En_yukseklik">30dp</dimen>
+    <dimen name = "En_text_size">20dp</dimen>
+
+    <dimen name = "En_edittext_margin_left">20dp</dimen>
+    <dimen name = "En_edittext_margin_top">10dp</dimen>
+    <dimen name = "En_edittext_genislik">100dp</dimen>
+    <dimen name = "En_edittext_yukseklik">40dp</dimen>
+
+
+    <dimen name = "Boy_margin_left">40dp</dimen>
+    <dimen name = "Boy_margin_top">0dp</dimen>
+    <dimen name = "Boy_genislik">110dp</dimen>
+    <dimen name = "Boy_yukseklik">40dp</dimen>
+    <dimen name = "Boy_text_size">20dp</dimen>
+
+    <dimen name = "Boy_edittext_margin_left">20dp</dimen>
+    <dimen name = "Boy_edittext_margin_top">10dp</dimen>
+    <dimen name = "Boy_edittext_genislik">100dp</dimen>
+    <dimen name = "Boy_edittext_yukseklik">40dp</dimen>
+
+    <dimen name = "Kioask_margin_left">70dp</dimen>
+    <dimen name = "Kioask_margin_top">240dp</dimen>
+    <dimen name = "Kioask_genislik">180dp</dimen>
+    <dimen name = "Kioask_yukseklik">40dp</dimen>
+    <dimen name = "Kioask_text_size">30dp</dimen>
+
+    <dimen name="btn_kioask_margin_left">320dp</dimen>
+    <dimen name ="btn_kiosk_margin_top">240dp</dimen>
+
+    <dimen name="btn_ok_margin_left">370dp</dimen>
+    <dimen name ="btn_ok_margin_top">410dp</dimen>
+    <dimen name = "btn_ok_genislik">150dp</dimen>
+    <dimen name = "btn_ok_yukseklik">60dp</dimen>
+
+    <dimen name = "server_info_message_margin_left_yesil">1220dp</dimen>
+    <dimen name = "server_info_message_margin_top_yesil">15dp</dimen>
+    <dimen name = "server_info_message_genislik_yesil">30dp</dimen>
+    <dimen name = "server_info_message_yukseklik_yesil">30dp</dimen>
+
+    <dimen name = "server_info_message_margin_left_red">980dp</dimen>
+    <dimen name = "server_info_message_margin_top_red">620dp</dimen>
+    <dimen name = "server_info_message_genislik_red">30dp</dimen>
+    <dimen name = "server_info_message_yukseklik_red">30dp</dimen>
+
+    <dimen name = "karttext_margin_left">905dp</dimen>
+    <dimen name = "karttext_margin_top">15dp</dimen>
+    <dimen name = "karttext_genislk">150dp</dimen>
+    <dimen name = "karttext_yukseklik">30dp</dimen>
+
+    <dimen name = "mac_left">1020dp</dimen>
+    <dimen name = "mac_top">10dp</dimen>
+
+    <dimen name = "macadres_genislik">120dp</dimen>
+    <dimen name = "macadres_yukseklik">30dp</dimen>
+    <dimen name = "macadres_margin_left">1025dp</dimen>
+    <dimen name = "macadres_margin_top">0dp</dimen>
+
+
+    <dimen name = "ip_text_genislik">50dp</dimen>
+    <dimen name = "ip_text_yukseklik">30dp</dimen>
+    <dimen name = "ip_text_margin_left">1020dp</dimen>
+    <dimen name = "ip_text_margin_top">30dp</dimen>
+
+    <dimen name = "ic_ip_text_genislik">50dp</dimen>
+    <dimen name = "ic_ip_text_yukseklik">30dp</dimen>
+    <dimen name = "ic_ip_text_margin_left">1020dp</dimen>
+    <dimen name = "ic_ip_text_margin_top">55dp</dimen>
+
+    <dimen name = "ic_ip_nmb_genislik">50dp</dimen>
+    <dimen name = "ic_ip_nmb_yukseklik">30dp</dimen>
+    <dimen name = "ic_ip_nmb_margin_left">1095dp</dimen>
+    <dimen name = "ic_ip_nmb_margin_top">55dp</dimen>
+
+
+    <dimen name = "kod_edittext_genislik">120dp</dimen>
+    <dimen name = "kod_edittext_yukseklik">50dp</dimen>
+    <dimen name = "kod_edittext_margin_left">270dp</dimen>
+    <dimen name = "kod_edittext_margintop">175dp</dimen>
+
+    <dimen name = "kod_text_genislik">180dp</dimen>
+    <dimen name = "kod_text_yukseklik">50dp</dimen>
+    <dimen name = "kod_text_margin_left">80dp</dimen>
+    <dimen name = "kod_text_margin_top">175dp</dimen>
+
+
+
+    <dimen name = "kisitext_genislik">100dp</dimen>
+    <dimen name = "kisitext_yukseklik">30dp</dimen>
+
+
+
+    <dimen name = "kisi_sayi_yukseklik">30dp</dimen>
+    <dimen name = "kisi_sayi_genislik">100dp</dimen>
+
+    <dimen name=  "personel_text_genislik">120dp</dimen>
+    <dimen name = "personel_text_yukseklik">30dp</dimen>
+    <dimen name = "personel_text_marginleft">1020dp</dimen>
+    <dimen name = "personel_text_margintop">100dp</dimen>
+
+    <dimen name=  "personel_sayi_genislik">80dp</dimen>
+    <dimen name = "personel_sayi_yukseklik">30dp</dimen>
+    <dimen name = "personel_sayi_marginleft">1090dp</dimen>
+    <dimen name = "personel_sayi_margintop">150dp</dimen>
+
+
+    <!--       yeni setting layout alanlari       -->
+
+
+    <dimen name = "layout_liner_setting_genislik">1500dp</dimen>
+    <dimen name = "layout_liner_yukseklik">500dp</dimen>
+    <dimen name = "layout_liner_margin_top">30dp</dimen>
+    <dimen name = "layout_liner_margin_left">85dp</dimen>
+
+
+
+    <dimen name = "new_setting_button_genislik">200dp</dimen>
+    <dimen name = "new_setting_button_yukseklik">100dp</dimen>
+    <dimen name = "new_setting_button_margin_top">10dp</dimen>
+    <dimen name = "new_setting_button_margin_left">510dp</dimen>
+    <dimen name = "new_btn_text_size">30dp</dimen>
+
+    <dimen name = "tabbtn_genislik">366dp</dimen>
+    <dimen name = "tabtbtn_yukseklik">90dp</dimen>
+    <dimen name = "tabbtn_margin_top">0dp</dimen>
+
+
+    <dimen name = "frame_genislik">1500dp</dimen>
+    <dimen name = "frame_yukseklik">300dp</dimen>
+    <dimen name = "frame_margin_top">95dp</dimen>
+    <dimen name = "frame_margin_left">0dp</dimen>
+
+
+    <dimen name = "mactanim_genislik">590dp</dimen>
+    <dimen name = "mactanim_yukseklik">80dp</dimen>
+    <dimen name = "margin_left">240dp</dimen>
+    <dimen name = "mactanim_text_sezi">40dp</dimen>
+
+
+    <dimen name = "adres_edit_new_panel_genislik">430dp</dimen>
+    <dimen name = "adres_edit_new_panel_yukseklik">50dp</dimen>
+    <dimen name = "adres_edit_new_panel_margin_top">20dp</dimen>
+    <dimen name = "adres_edit_new_panel_margin_left">300dp</dimen>
+
+
+    <dimen name = "adres_text_margin_left">70dp</dimen>
+    <dimen name = "adres_text_margin_top">20dp</dimen>
+    <dimen name = "adres_text_panel_size">30dp</dimen>
+
+
+    <dimen name = "lisans_edit_new_panel_genislik">430dp</dimen>
+    <dimen name = "lisans_edit_new_panel_yukseklik">50dp</dimen>
+    <dimen name = "lisans_edit_new_panel_margin_top">75dp</dimen>
+    <dimen name = "lisans_edit_new_panel_margin_left">300dp</dimen>
+
+
+    <dimen name = "lisans_text_margin_left">30dp</dimen>
+    <dimen name = "lisans_text_margin_top">75dp</dimen>
+    <dimen name = "lisans_text_panel_size">30dp</dimen>
+
+    <dimen name = "lineer_resim_panel_margintop">130dp</dimen>
+    <dimen name = "lineer_resim_panel_marginleft">75dp</dimen>
+
+
+    <dimen name =  "anahtar_panel_text_margin_left" >75dp</dimen>
+    <dimen name =  "anahtar_panel_text_marign_top" >180dp</dimen>
+    <dimen name =  "anahatar_panel_text_genislislik" >170dp</dimen>
+    <dimen name =  "anahtar_panel_text_yukseklik" >70dp</dimen>
+    <dimen name =  "anahtar_size">30dp</dimen>
+
+
+
+    <dimen name = "tumunusil_text_genislik">200dp</dimen>
+    <dimen name = "tumunusil_text_yukseklik">50dp</dimen>
+    <dimen name = "tumunusil_text_margin_left">100dp</dimen>
+    <dimen name = "tumunusil_text_margin_top">50dp</dimen>
+    <dimen name = "tumunusil_text_size">30dp</dimen>
+
+    <dimen name = "tumunusil_ikinoktta_margin_left">350dp</dimen>
+    <dimen name = "tumunusil_ikinoktta_margintop">30dp</dimen>
+    <dimen name = "tumunusil_ikinoktta_size">50dp</dimen>
+
+    <dimen name = "tumunusil_edittext_genislik">250dp</dimen>
+    <dimen name = "tumunusil_edittext_yuksekilik">50dp</dimen>
+    <dimen name = "tumunusil_edittext_margin_left">370dp</dimen>
+    <dimen name = "tumunusil_edittext_margin_top">50dp</dimen>
+
+    <dimen name = "tumunuguncelle_text_genislik">250dp</dimen>
+    <dimen name = "tumunuguncelle_text_yukseklik">70dp</dimen>
+    <dimen name = "tumunuguncelle_text_margin_left">100dp</dimen>
+    <dimen name = "tumunuguncelle_text_margin_top">110dp</dimen>
+    <dimen name = "tumunuguncelle_text_size">30dp</dimen>
+
+    <dimen name = "tumunuguncelle_ikinoktta_margin_left">350dp</dimen>
+    <dimen name = "tumunuguncellel_ikinoktta_margintop">110dp</dimen>
+    <dimen name = "tumunuguncelle_ikinoktta_size">50dp</dimen>
+
+
+    <dimen name = "fabrika_ayarlarininadon_genislik_btn">300dp</dimen>
+    <dimen name = "fabrika_ayarlarininadon_yukseklik_btn">70dp</dimen>
+    <dimen name = "fabrika_ayarlarininadon_marignleft_btn">100dp</dimen>
+    <dimen name = "fabrika_ayarlarininadon_margintop_btn">200dp</dimen>
+
+
+    ///////////////////////////////////////////////////////////////////
+
+
+
+    <dimen name = "textsize">25dp</dimen>
+
+    <dimen name = "noktasize">25dp</dimen>
+    <dimen name = "nokta_genislik">30dp</dimen>
+    <dimen name = "nokta_yukseklik">30dp</dimen>
+
+    <dimen name = "uzunedit_genislik">430dp</dimen>
+    <dimen name = "uzunedit_yukseklik">35dp</dimen>
+
+    <dimen name = "nokta_adres_marginleft">280dp</dimen>
+    <dimen name = "nokta_adres_margintop">20dp</dimen>
+
+    <dimen name = "lisanstext_marginlef">70dp</dimen>
+    <dimen name = "lisanstext_margintop">80dp</dimen>
+
+    <dimen name = "nokta_lisans_marginleft">280dp</dimen>
+    <dimen name = "nokta_lisans_margintop">80dp</dimen>
+
+
+    <dimen name = "lisansedit_marginleft">300dp</dimen>
+    <dimen name = "lisansedit_margintop">78dp</dimen>
+
+
+    <dimen name = "nokta_anahtar_marginleft">280dp</dimen>
+    <dimen name = "nokta_anahtar_margintop">130dp</dimen>
+
+
+    <dimen name = "kucuk_genislik">150dp</dimen>
+    <dimen name = "kucuk_yukseklik">35dp</dimen>
+
+    <dimen name = "anahtar_edittext_marginleft">300dp</dimen>
+    <dimen name = "anahtar_edittext_margintop">130dp</dimen>
+
+    <dimen name = "kameratext_marginleft">70dp</dimen>
+    <dimen name = "kameratext_margintop">185dp</dimen>
+
+    <dimen name = "nokta_kamera_marginleft">280dp</dimen>
+    <dimen name = "nokta_kamera_margintop">185dp</dimen>
+
+    <dimen name = "kiosktext_marginleft">70dp</dimen>
+    <dimen name = "kiosktext_margintop">230dp</dimen>
+
+    <dimen name = "nokta_kioks_marginleft">280dp</dimen>
+    <dimen name = "nokta_kiosk_margintop">230dp</dimen>
+
+
+    <dimen name = "tgl_btn_marginleft">300dp</dimen>
+    <dimen name = "tgl_btn_margintop">230dp</dimen>
+
+    <dimen name = "anahtar_text_marginleft">70dp</dimen>
+    <dimen name = "anahtar_text_margintop">130dp</dimen>
+
+    <dimen name = "kisayol_text_marginleft">70dp</dimen>
+    <dimen name = "kisayol_text_margintop">300dp</dimen>
+
+    <dimen name = "kisayol_nokta_marginleft">280dp</dimen>
+    <dimen name = "kisayol_nokta_margintop">300dp</dimen>
+
+    <dimen name = "kisayol_edit_marginleft">300dp</dimen>
+    <dimen name = "kisayol_edit_margintop">300dp</dimen>
+
+
+    <dimen name = "boy_text_marginleft">70dp</dimen>
+    <dimen name = "boy_text_margintop">350dp</dimen>
+
+    <dimen name = "boy_nokta_marginleft">280dp</dimen>
+    <dimen name = "boy_nokta_margintop">350dp</dimen>
+
+    <dimen name = "boy_edittex_marginleft">300dp</dimen>
+    <dimen name = "boy_edittex_margintop">350dp</dimen>
+
+
+    <dimen name = "grpkamera_marginleft">300dp</dimen>
+    <dimen name = "grpkamera_margintop">185dp</dimen>
+
+    <dimen name = "en_text_marginleft">70dp</dimen>
+    <dimen name = "en_text_margintop">400dp</dimen>
+
+    <dimen name = "en_nokta_marginleft">280dp</dimen>
+    <dimen name = "en_nokta_margintop">400dp</dimen>
+
+
+    <dimen name = "en_edittex_marginleft">300dp</dimen>
+    <dimen name = "en_edittex_margintop">400dp</dimen>
+
+
+    <dimen name = "anabtn_genislik">155dp</dimen>
+    <dimen name = "anabtn_yukseklik">90dp</dimen>
+
+    <dimen name = "tmnsil_edittex_marginleft">340dp</dimen>
+    <dimen name = "tmnsil_edittex_margintop">100dp</dimen>
+
+    <dimen name = "tmnsiltext_margin_left">90dp</dimen>
+    <dimen name = "tmnsiltext_margin_top">100dp</dimen>
+
+    <dimen name = "tmnsil_nokta_marginleft">330dp</dimen>
+    <dimen name = "tmnsil_nokta_margintop">100dp</dimen>
+
+
+    <dimen name = "tmnguncelle_edittex_marginleft">340dp</dimen>
+    <dimen name = "tmnguncelle_edittex_margintop">150dp</dimen>
+
+    <dimen name = "tmnguncelle_text_margin_left">90dp</dimen>
+    <dimen name = "tmnguncelle_text_margin_top">150dp</dimen>
+
+    <dimen name = "tmnguncelle_nokta_marginleft">330dp</dimen>
+    <dimen name = "tmnguncelle_nokta_margintop">150dp</dimen>
+
+    <dimen name = "appkapat_text_marginleft">90dp</dimen>
+    <dimen name = "appkapat_text_margintop">200dp</dimen>
+
+    <dimen name = "appkapat_editext_marginleft">340dp</dimen>
+    <dimen name = "appkapat_edittext_margin_top">200dp</dimen>
+
+    <dimen name = "appkapat_nokta_marginleft">330dp</dimen>
+    <dimen name = "appkapat_nokta_margintop">200dp</dimen>
+
+
+</resources>

@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0d6a8e"
+    android:id="@+id/settingmainlayout">
+
+
+    <RelativeLayout
+
+        android:layout_width="@dimen/analayout_genislik"
+        android:layout_height="@dimen/analayout_yukseklik"
+        android:layout_marginLeft="@dimen/analayout_margin_left"
+        android:id="@+id/settinlayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/textView12"
+        android:layout_toStartOf="@+id/textView12">
+
+        <TextView
+            android:layout_width="@dimen/adres_genislik"
+            android:layout_height="@dimen/adres_yukseklik"
+            android:layout_marginLeft="@dimen/adres_margin_left"
+            android:layout_marginTop="@dimen/adres_margin_top"
+            android:text="ADRES :"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/adres_text_size"
+            android:textColor="#660000"/>
+
+        <EditText
+            android:background="@drawable/bg_edittext_normal"
+            android:layout_width="@dimen/adres_edittext_genislik"
+            android:layout_height="@dimen/adres_edittext_yukseklik"
+            android:layout_marginLeft="@dimen/adres_edittext_margin_left"
+            android:layout_marginTop="@dimen/adres_edittext_margin_top"
+            android:inputType="textCapSentences|textAutoCorrect"
+
+            android:id="@+id/editadres" />
+
+
+        <TextView
+            android:layout_width="@dimen/Lisans_genislik"
+            android:layout_height="@dimen/Lisans_yukseklik"
+            android:layout_marginLeft="@dimen/Lisans_margin_left"
+            android:layout_marginTop="@dimen/Lisans_margin_top"
+            android:text="LISANS NO :"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/Lisans_text_size"
+            android:textColor="#660000"/>
+
+        <EditText
+            android:background="@drawable/bg_edittext_normal"
+            android:layout_width="@dimen/Lisans_edittext_genislik"
+            android:layout_height="@dimen/Lisans_edittext_yukseklik"
+            android:layout_marginLeft="@dimen/Lisans_edittext_margin_left"
+            android:layout_marginTop="@dimen/Lisans_edittext_margin_top"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:id="@+id/editlisans" />
+
+        <EditText
+
+            android:layout_width="@dimen/kod_edittext_genislik"
+            android:layout_height="@dimen/kod_edittext_yukseklik"
+            android:layout_marginLeft="@dimen/kod_edittext_margin_left"
+            android:layout_marginTop="@dimen/kod_edittext_margintop"
+            android:background="@drawable/bg_edittext_normal"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:maxLength="3"
+            android:id="@+id/editkod"
+
+            />
+
+        <TextView
+            android:layout_width="@dimen/kod_text_genislik"
+            android:layout_height="@dimen/kod_text_yukseklik"
+            android:layout_marginLeft="@dimen/kod_text_margin_left"
+            android:layout_marginTop="@dimen/kod_text_margin_top"
+            android:text="ANAHTAR :"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/Lisans_text_size"
+            android:textColor="#660000"
+            />
+
+
+        <LinearLayout
+
+            android:layout_width="@dimen/Linerlayout_genislik"
+            android:layout_height="@dimen/LinerLayout_yukseklik"
+            android:layout_marginLeft="@dimen/LinerLayout_margin_left"
+            android:layout_marginTop="@dimen/LinerLayout_margin_top"
+
+            android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="@dimen/Kisayol_genislik"
+                android:layout_height="@dimen/Kisayol_yukseklik"
+                android:layout_marginLeft="@dimen/Kisayol_margin_left"
+                android:layout_marginTop="@dimen/Kisayol_margin_top"
+                android:text="KISAYOL :"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/Kisayol_text_size"
+                android:textColor="#660000"/>
+
+            <EditText
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_normal"
+                android:maxLength="5"
+                android:layout_width="@dimen/Kisayol_edittext_genislik"
+                android:layout_height="@dimen/Kisayol_edittext_yukseklik"
+                android:layout_marginTop="@dimen/Kisayol_edittext_margin_top"
+                android:layout_marginLeft="@dimen/Kisayol_edittext_margin_left"
+                android:id="@+id/editkisayol" />
+
+
+            <TextView
+                android:layout_width="@dimen/En_genislik"
+                android:layout_height="@dimen/En_yukseklik"
+                android:layout_marginLeft="@dimen/En_margin_left"
+                android:layout_marginTop="@dimen/En_margin_top"
+                android:text="EN(resim) :"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/En_text_size"
+                android:textColor="#660000"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_normal"
+                android:layout_width="@dimen/En_edittext_genislik"
+                android:layout_height="@dimen/En_edittext_yukseklik"
+                android:layout_marginTop="@dimen/En_edittext_margin_top"
+                android:layout_marginLeft="@dimen/En_edittext_margin_left"
+                android:maxLength="3"
+                android:id="@+id/editen" />
+
+
+            <TextView
+                android:layout_width="@dimen/Boy_genislik"
+                android:layout_height="@dimen/Boy_yukseklik"
+                android:layout_marginLeft="@dimen/En_margin_left"
+                android:layout_marginTop="@dimen/Boy_margin_top"
+                android:text="Boy(resim) :"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/Boy_text_size"
+                android:textColor="#660000"/>
+
+
+            <EditText
+                android:inputType="number"
+                android:background="@drawable/bg_edittext_normal"
+                android:layout_width="@dimen/Boy_edittext_genislik"
+                android:layout_height="@dimen/Boy_edittext_yukseklik"
+                android:layout_marginTop="@dimen/Boy_edittext_margin_top"
+                android:layout_marginLeft="@dimen/Boy_edittext_margin_left"
+                android:maxLength="3"
+                android:id="@+id/editboy" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="@dimen/Kioask_genislik"
+            android:layout_height="@dimen/Kioask_yukseklik"
+            android:layout_marginLeft="@dimen/Kioask_margin_left"
+            android:layout_marginTop="@dimen/Kioask_margin_top"
+            android:text="Kiosk Modu :"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/Kioask_text_size"
+            android:textColor="#660000"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New ToggleButton"
+            android:id="@+id/tglkioskbtn"
+            android:gravity="center"
+            android:layout_marginLeft="@dimen/btn_kioask_margin_left"
+            android:layout_marginTop="@dimen/btn_kiosk_margin_top"
+            android:checked="false" />
+
+        <Button
+            android:layout_width="@dimen/btn_ok_genislik"
+            android:layout_height="@dimen/btn_ok_yukseklik"
+            android:layout_marginTop="@dimen/btn_ok_margin_top"
+            android:layout_marginLeft="@dimen/btn_ok_margin_left"
+            android:id="@+id/buttondzn"
+            android:text="OK"
+            />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAC Adres :"
+        android:id="@+id/mactext"
+        android:layout_marginLeft="@dimen/mac_left"
+        android:layout_marginTop="@dimen/mac_top"/>
+
+    <TextView
+        android:layout_width="@dimen/macadres_genislik"
+        android:layout_height="@dimen/macadres_yukseklik"
+        android:textStyle="normal"
+        android:id="@+id/macadresID"
+        android:layout_alignTop="@+id/mactext"
+        android:layout_toRightOf="@+id/mactext"
+        android:layout_toEndOf="@+id/mactext" />
+
+    <TextView
+        android:layout_width="@dimen/ip_text_genislik"
+        android:layout_height="@dimen/ip_text_yukseklik"
+        android:layout_marginLeft="@dimen/ip_text_margin_left"
+        android:layout_marginTop="@dimen/ip_text_margin_top"
+        android:text="@string/dis_ip"
+        android:id="@+id/iptext" />
+
+
+    <TextView
+        android:layout_width="@dimen/macadres_genislik"
+        android:layout_height="@dimen/macadres_yukseklik"
+        android:textStyle="normal"
+        android:id="@+id/ipid"
+        android:layout_alignTop="@+id/iptext"
+        android:layout_toRightOf="@+id/mactext"
+        android:layout_toEndOf="@+id/mactext" />
+
+    <TextView
+        android:layout_width="@dimen/ic_ip_text_genislik"
+        android:layout_height="@dimen/ic_ip_text_yukseklik"
+        android:layout_marginLeft="@dimen/ic_ip_text_margin_left"
+        android:layout_marginTop="@dimen/ic_ip_text_margin_top"
+        android:text="@string/ic_ip"
+        android:id="@+id/textView11" />
+
+    <TextView
+        android:layout_width="@dimen/macadres_genislik"
+        android:layout_height="@dimen/macadres_yukseklik"
+        android:textStyle="normal"
+        android:id="@+id/icipid"
+        android:layout_marginLeft="@dimen/ic_ip_nmb_margin_left"
+        android:layout_marginTop="@dimen/ic_ip_nmb_margin_top"/>
+
+    <TextView
+        android:layout_width="@dimen/kisitext_genislik"
+        android:layout_height="@dimen/kisitext_yukseklik"
+        android:text="@string/kisi_text"
+        android:layout_below="@+id/textView11"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:id="@+id/textView12" />
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:id="@+id/kisisayisi"
+        android:layout_below="@+id/icipid"
+        android:layout_toRightOf="@+id/textView12"
+        android:layout_toEndOf="@+id/textView12" />
+    <TextView
+        android:layout_width="@dimen/personel_text_genislik"
+        android:layout_height="@dimen/personel_text_yukseklik"
+        android:layout_marginLeft="@dimen/personel_text_marginleft"
+        android:layout_marginTop="@dimen/personel_text_margintop"
+        android:text="@string/personel_sayisi"
+        android:id="@+id/textView13" />
+
+    <TextView
+        android:layout_width="@dimen/personel_sayi_genislik"
+        android:layout_height="@dimen/personel_sayi_yukseklik"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_toRightOf="@+id/textView13"
+        android:id="@+id/textView14"/>
+
+</RelativeLayout>

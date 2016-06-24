@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#0d6a8e">
+
+    <RelativeLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/relativeKlavye"
+        android:background="@drawable/arkaplan2"
+
+        >
+
+
+        <RelativeLayout
+
+            android:background="@drawable/klavye_panel"
+            android:layout_width="@dimen/klavye_panel_genislik"
+            android:layout_height="@dimen/klavye_panel_yukseklik"
+            android:id="@+id/relativeLayout"
+            android:layout_marginTop="@dimen/klavye_panel_margin_top"
+            android:layout_marginLeft="@dimen/klavye_panel_margin_left"
+            >
+
+            <RelativeLayout
+
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/set1"
+
+                >
+
+                <Button
+                    android:id="@+id/buton1"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn1"
+                    android:layout_marginLeft="@dimen/button_margin_left"/>
+                <Button
+                    android:id="@+id/buton2"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn2"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+
+                    android:id="@+id/buton3"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn3"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/button_margin_left"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_below="@+id/set1"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/set2">
+
+
+                <Button
+                    android:id="@+id/buton4"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn4"
+                    android:layout_marginLeft="@dimen/button_margin_left"/>
+
+                <Button
+                    android:id="@+id/buton5"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/bnt5"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+
+                    android:id="@+id/buton6"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn6"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/button_margin_left"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_below="@+id/set2"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/set3">
+
+                <Button
+                    android:id="@+id/buton7"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn7"
+                    android:layout_marginLeft="@dimen/button_margin_left"/>
+                <Button
+                    android:id="@+id/buton8"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn8"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+
+                    android:id="@+id/buton9"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn9"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/button_margin_left"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_height="90dp"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_below="@+id/set3"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/set4">
+
+                <Button
+                    android:id="@+id/butonsil"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/sill"
+                    android:layout_marginLeft="@dimen/button_margin_left"/>
+                <Button
+                    android:id="@+id/buton0"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/btn0"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <Button
+
+                    android:id="@+id/butonok"
+                    android:layout_height="@dimen/button_yukseklik"
+                    android:layout_width="@dimen/button_genislik"
+                    android:background="@drawable/ok"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="@dimen/button_margin_left"/>
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+
+            android:background="@drawable/kamera_panel"
+            android:id="@+id/kameraarkaplanlayout"
+            android:layout_width="@dimen/kamera_panel_genislik"
+            android:layout_height="@dimen/kamera_panel_yukselklik"
+            android:layout_marginTop="@dimen/kamera_panel_margin_top"
+            android:layout_marginLeft="@dimen/kamera_panel_margin_right">
+
+            <RelativeLayout
+                android:layout_height="471dp"
+                android:layout_width="451dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginLeft="14dp">
+
+                <FrameLayout
+                    android:id="@+id/camera_preview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                </FrameLayout>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/infolayout"
+                android:layout_gravity="left|center_vertical">
+
+                <TextView
+                    android:layout_width="290dp"
+                    android:layout_height="70dp"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:id="@+id/infotiptxt"
+                    android:layout_marginTop="30dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/infoisimtxtt"
+                    android:textStyle="bold"
+                    android:textSize="45dp"
+                    android:layout_marginTop="405dp"
+                    android:layout_alignLeft="@+id/infotiptxt"
+                    android:layout_alignStart="@+id/infotiptxt" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <EditText
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editkart"
+            android:background="@null"
+            android:alpha="0"
+            android:textCursorDrawable="@android:color/background_dark"
+            android:layout_weight="1"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="480dp"
+        android:layout_height="40dp"
+
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/klavye_panel_margin_left"
+        android:layout_marginTop="15dp"
+        android:id="@+id/relativeLayout2" >
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/showclock"
+        android:text="Saat:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/saat_margin_right" />
+
+
+
+    <TextView
+        android:layout_width="@dimen/karttext_genislk"
+        android:layout_height="@dimen/karttext_yukseklik"
+        android:id="@+id/kartnotxt"
+        android:layout_marginTop="@dimen/karttext_margin_top"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="@dimen/karttext_margin_left" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="370dp"
+        android:text="@string/kart_text"
+        android:textStyle="bold"
+        android:id="@+id/kartbilgitxt"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/server_info_message_genislik_yesil"
+        android:layout_height="@dimen/server_info_message_yukseklik_yesil"
+        android:layout_marginLeft="@dimen/server_info_message_margin_left_yesil"
+        android:layout_marginTop="@dimen/server_info_message_margin_top_yesil"
+        android:background="@drawable/red"
+        android:id="@+id/infoserveryesil"/>
+
+
+
+
+
+</RelativeLayout>
